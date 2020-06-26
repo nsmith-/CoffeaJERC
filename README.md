@@ -30,8 +30,18 @@ export IPYTHONDIR=/work/.ipython
 jupyter notebook --ip 0.0.0.0 --no-browser --notebook-dir /work
 ```
 
-
 ## Execute notebook
 
-Go to [localhost](http://127.0.0.1:8888) to open the jupyter interface. The example notebook is [here](https://github.com/cms-jet/CoffeaJERC/blob/master/genL2L3.ipynb). 
+Go to [localhost](http://127.0.0.1:8888) to open the jupyter interface. 
 
+## Get the exercises
+
+Open the terminal via "New -> Terminal"
+
+Then
+
+```
+git clone https://github.com/cms-jet/CoffeaJERC.git
+```
+
+The example notebook is [genL2L3.ipynb](https://github.com/cms-jet/CoffeaJERC/blob/master/genL2L3.ipynb). 
