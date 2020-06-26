@@ -31,5 +31,7 @@ jupyter notebook --ip 0.0.0.0 --no-browser --notebook-dir /work
 ```
 
 
-## 
+## Execute notebook
+
+The example notebook is [here](https://github.com/cms-jet/CoffeaJERC/blob/master/genL2L3.ipynb). 
 
