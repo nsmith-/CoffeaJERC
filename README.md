@@ -11,6 +11,12 @@ Log into `cmslpc`:
 ssh -L localhost:8888:localhost:8888  <username>@cmslpc-sl7.fnal.gov
 ```
 
+Get a voms ticket: 
+
+```
+voms proxy init -voms cms
+```
+
 Next set cache directory for singularity, go to that directory, and get the docker container for `coffea-dask`: 
 
 ```
