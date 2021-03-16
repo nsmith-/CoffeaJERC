@@ -23,7 +23,7 @@ Next set cache directory for singularity, go to that directory, and get the dock
 export SINGULARITY_CACHEDIR=/uscms_data/d2/<your_directory>/singularity/.singularity
 cd /uscms_data/d2/<your_directory>/singularity
 singularity pull docker://coffeateam/coffea-dask:latest
-singularity shell -B ${PWD}:/work docker://coffeateam/coffea-dask:latest
+singularity shell -B ${PWD}:/work /cvmfs/unpacked.cern.ch/registry.hub.docker.com/coffeateam/coffea-dask:latest
 ```
 
 From within the container, set the jupyter paths and start a server: 
